@@ -8,7 +8,7 @@ export const authApi = {
     return results;
   },
   register: async (data) => {
-    // data = {fullName: "Tran van teo", phone: "0123456789", address: "Can Tho", email: "2@gmail.com", password: "0919612443"}
+    // data = {fullName: "Tran van teo", phone: "0123456789", address: "Can Tho", email: "2@gmail.com", password: "12313131231"}
     const { results } = await axiosClient.post("/auth/register", data);
     return results;
   },
